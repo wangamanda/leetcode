@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.Arrays;
+
 public class RemoveMiddle{
 	static ListNode head = new ListNode(1);
 	static ListNode second = new ListNode(2);
