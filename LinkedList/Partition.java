@@ -1,5 +1,8 @@
 package LinkedList;
 
+import java.util.Arrays;
+import java.util.ArrayList;
+
 public class Partition{
 	public static void main(String[] args){
 		ListNode n1 = new ListNode(7);
