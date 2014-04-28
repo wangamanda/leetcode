@@ -1,5 +1,5 @@
 package LinkedList;
-
+import java.util.Arrays;
 public class MergeSorted{
 	public static void main(String[] args){
 		ListNode n1 = new ListNode(2);
