@@ -21,8 +21,30 @@ public class Circle{
 	}
 
 	public static ListNode FindHead(ListNode n){
-		ListNode res = n;
+		if(n == null || n.next == null){
+			return n;
+		}
 
-	}
-	
+		ListNode former = n;
+		ListNode current = n;
+		while(former != null && former.next != null){
+			former = former.next.next;
+			current = current.next;
+			if(former == current){
+				break;
+			}
+		}
+
+		if(former == null || former.next == null){
+			return null;
+		}
+
+		current = n;
+		while(former != current){
+			former = former.next;
+			current = current.next;
+		}
+		
+		return current;
+	}	
 }
