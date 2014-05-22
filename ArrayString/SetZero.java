@@ -1,6 +1,7 @@
 import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class SetZero{
 	public static void main(String[] args){
