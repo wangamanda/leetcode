@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.ArrayList;
 
 public class UniqueChar{
 	public static void main(String[] args){
