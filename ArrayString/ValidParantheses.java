@@ -1,5 +1,6 @@
 import java.util.Stack;
 import java.util.Arrays;
+import java.util.ArrayList;
 
 public class ValidParantheses{
 	public static void main(String[] args){
